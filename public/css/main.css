@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+body {
+  background-color: #eceff1;
+}
+
+h4 {
+  font-family: "Fira Code", serif;
+  letter-spacing: -0.8px;
+  color: #eceff1;
+}
+
+h4 span {
+  color: #f5c426;
+}
+
+a {
+  text-decoration: none;
+}
