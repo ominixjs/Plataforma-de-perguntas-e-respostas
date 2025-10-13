@@ -1,6 +1,7 @@
 ## Plataforma de perguntas e respostas
 
 Projeto idealizado para servir de ajuda para devs com dúvidas na area da tecnológia TI. Pessoas que estejam iniciando ou seja profissionais possam ajudar, aprender e também a ficar ligado nas mudanças.
+
 ## 🧩 Tecnologias utilizadas
 
 O projeto foi desenvolvido com as seguintes tecnologias:
@@ -14,7 +15,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 ![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ### ⚡ OMINIXJS
 
