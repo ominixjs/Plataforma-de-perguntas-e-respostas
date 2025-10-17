@@ -14,7 +14,8 @@ connection
     console.log("Conexão feita com sucesso ao banco de dados");
   })
   .catch((err) => {
-    console.log(err);
+    console.log('Erro ao conectar com DB:', err);
+    process.exit(1)
   });
 
 // Estou dizendo para o Express usar o EJS como view engine
@@ -87,15 +88,9 @@ app.get("/pergunta/:id", (req, res) => {
 
 app.post("/salvarpergunta", (req, res) => {
   const titulo = req.body.titulo;
-
-  if (titulo == "") {
-    throw new Error("Campo de titulo vázio!");
-  }
   const desc = req.body.descricao;
 
-  if (desc == "") {
-    throw new Error("Campo de descrição vázio!");
-  }
+
 
   Pergunta.create({ titulo: titulo, descricao: desc })
     .then(() => {
