@@ -122,6 +122,14 @@ app.get("/error", (req, res) => {
   res.render("error");
 });
 
-app.listen("8080", () => {
+process.on("uncaughtException", (err) => {
+  console.error("Erro não tratado:", err);
+});
+
+process.on("unhandledRejection", (reason, promise) => {
+  console.error("Promise rejeitada não tratada:", reason);
+});
+
+app.listen(8080, () => {
   console.log("Site rodando!");
 });
